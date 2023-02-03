@@ -131,11 +131,11 @@ import AEOTPTextField
 Then, use tha `AEOTPView` in your SwiftUI View, do something like this:
 ``` swift
 struct SwiftUIView: View { 
-    @State private var otp: String = ""
-    
-    var body: some View {
-        AEOTPView(text: $otp)
-    }
+	@State private var otp: String = ""
+	
+	var body: some View {
+		AEOTPView(text: $otp)
+	}
 }
 ```
 You have done.
@@ -169,7 +169,7 @@ AEOTPTextField
 ```
 Aslo you can use isSecureTextEntry property:
 ``` swift
-    otpTextField.isSecureTextEntry = true
+	otpTextField.isSecureTextEntry = true
 ```
 Example of Customization
 ``` swift
@@ -189,7 +189,7 @@ Example of Customization
 AEOTPTextField
 `AEOTPTextField` supports the following:
 ``` swift
-    // MARK: - INIT
+	// MARK: - INIT
     //
     /// The Initializer of the `AEOTPTextView`
     /// - Parameters:
@@ -246,7 +246,7 @@ Example of Customization
                     // do something
                 }
             )
-        .padding()
+	    .padding()
 
 ```
 
