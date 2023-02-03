@@ -140,7 +140,7 @@ private extension AEOTPTextField {
             }
         }
         
-        if text.count == digitLabels.count {
+        if text.count <= digitLabels.count {
             otpDelegate?.didUserFinishEnter(the: text)
         }
     }
